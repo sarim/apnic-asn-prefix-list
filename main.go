@@ -122,8 +122,8 @@ func printPrefixes(asn *ASN) {
 
 func main() {
 
-	as := flag.String("as", "", "provide an ASN to print its ip prefixes")
-	country := flag.String("country", "", "provide a country to all ASNs' ip prefixes in this country")
+	as := flag.String("as", "", "provide an ASN to print its IP prefixes")
+	country := flag.String("country", "", "provide a country code to print all ASNs' IP prefixes in this country")
 
 	flag.Parse()
 
